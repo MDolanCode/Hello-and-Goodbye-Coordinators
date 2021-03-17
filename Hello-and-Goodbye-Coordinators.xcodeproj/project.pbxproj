@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C97DFBB0260240ED000014AB /* Coordinators.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coordinators.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C97DFBB0260240ED000014AB /* Hello-and-Goodbye-Coordinators.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello-and-Goodbye-Coordinators.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C97DFBB3260240ED000014AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C97DFBB7260240ED000014AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C97DFBBA260240ED000014AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		C97DFBA7260240ED000014AB = {
 			isa = PBXGroup;
 			children = (
-				C97DFBB2260240ED000014AB /* Coordinators */,
+				C97DFBB2260240ED000014AB /* Hello-and-Goodbye-Coordinators */,
 				C97DFBB1260240ED000014AB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,12 +56,12 @@
 		C97DFBB1260240ED000014AB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C97DFBB0260240ED000014AB /* Coordinators.app */,
+				C97DFBB0260240ED000014AB /* Hello-and-Goodbye-Coordinators.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C97DFBB2260240ED000014AB /* Coordinators */ = {
+		C97DFBB2260240ED000014AB /* Hello-and-Goodbye-Coordinators */ = {
 			isa = PBXGroup;
 			children = (
 				C97DFBC82602411F000014AB /* Coordinator.swift */,
@@ -76,15 +76,15 @@
 				C97DFBBE260240F0000014AB /* LaunchScreen.storyboard */,
 				C97DFBC1260240F0000014AB /* Info.plist */,
 			);
-			path = Coordinators;
+			path = "Hello-and-Goodbye-Coordinators";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C97DFBAF260240ED000014AB /* Coordinators */ = {
+		C97DFBAF260240ED000014AB /* Hello-and-Goodbye-Coordinators */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C97DFBC4260240F0000014AB /* Build configuration list for PBXNativeTarget "Coordinators" */;
+			buildConfigurationList = C97DFBC4260240F0000014AB /* Build configuration list for PBXNativeTarget "Hello-and-Goodbye-Coordinators" */;
 			buildPhases = (
 				C97DFBAC260240ED000014AB /* Sources */,
 				C97DFBAD260240ED000014AB /* Frameworks */,
@@ -94,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = Coordinators;
+			name = "Hello-and-Goodbye-Coordinators";
 			productName = Coordinators;
-			productReference = C97DFBB0260240ED000014AB /* Coordinators.app */;
+			productReference = C97DFBB0260240ED000014AB /* Hello-and-Goodbye-Coordinators.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -113,7 +113,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C97DFBAB260240ED000014AB /* Build configuration list for PBXProject "Coordinators" */;
+			buildConfigurationList = C97DFBAB260240ED000014AB /* Build configuration list for PBXProject "Hello-and-Goodbye-Coordinators" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -126,7 +126,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C97DFBAF260240ED000014AB /* Coordinators */,
+				C97DFBAF260240ED000014AB /* Hello-and-Goodbye-Coordinators */,
 			);
 		};
 /* End PBXProject section */
@@ -304,12 +304,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5CDGW4297F;
-				INFOPLIST_FILE = Coordinators/Info.plist;
+				INFOPLIST_FILE = "Hello-and-Goodbye-Coordinators/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.matthewdolan.Coordinators;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.matthewdolan.Hello-and-Goodbye-Coordinators";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -323,12 +323,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5CDGW4297F;
-				INFOPLIST_FILE = Coordinators/Info.plist;
+				INFOPLIST_FILE = "Hello-and-Goodbye-Coordinators/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.matthewdolan.Coordinators;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.matthewdolan.Hello-and-Goodbye-Coordinators";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -338,7 +338,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C97DFBAB260240ED000014AB /* Build configuration list for PBXProject "Coordinators" */ = {
+		C97DFBAB260240ED000014AB /* Build configuration list for PBXProject "Hello-and-Goodbye-Coordinators" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C97DFBC2260240F0000014AB /* Debug */,
@@ -347,7 +347,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C97DFBC4260240F0000014AB /* Build configuration list for PBXNativeTarget "Coordinators" */ = {
+		C97DFBC4260240F0000014AB /* Build configuration list for PBXNativeTarget "Hello-and-Goodbye-Coordinators" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C97DFBC5260240F0000014AB /* Debug */,
