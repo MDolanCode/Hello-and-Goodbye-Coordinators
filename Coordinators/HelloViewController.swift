@@ -10,9 +10,12 @@ import UIKit
 class HelloViewController: UIViewController, Storyboarded {
     weak var coordinator: MainCoordinator?
 
+    @IBOutlet weak var helloLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         view.backgroundColor = .orange
+        helloLabel.textColor = .white
     }
 }
