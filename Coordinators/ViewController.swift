@@ -8,6 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController, Storyboarded {
+    weak var coordinator: MainCoordinator?
     
     @IBOutlet weak var sayHelloButton: UIButton!
     @IBOutlet weak var sayGoodByeButton: UIButton!
