@@ -16,10 +16,7 @@ class ViewController: UIViewController, Storyboarded {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        sayHelloButton.backgroundColor = .orange
-        sayGoodByeButton.backgroundColor = .purple
-        sayHelloButton.setTitleColor(UIColor.white, for: .normal)
-        sayGoodByeButton.setTitleColor(UIColor.white, for: .normal)
+        stylingForUI()
     }
     
     @IBAction func sayHelloPressed(_ sender: UIButton) {
@@ -28,6 +25,14 @@ class ViewController: UIViewController, Storyboarded {
     
     @IBAction func sayGoodByePressed(_ sender: UIButton) {
         coordinator?.goodBye()
+    }
+    
+    func stylingForUI() {
+        view.backgroundColor = .darkGray
+        sayHelloButton.backgroundColor = .orange
+        sayGoodByeButton.backgroundColor = .purple
+        sayHelloButton.setTitleColor(UIColor.white, for: .normal)
+        sayGoodByeButton.setTitleColor(UIColor.white, for: .normal)
     }
 }
 
