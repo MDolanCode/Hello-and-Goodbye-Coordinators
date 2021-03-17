@@ -29,11 +29,13 @@ class ViewController: UIViewController, Storyboarded {
     
     func stylingForUI() {
         view.backgroundColor = .darkGray
+        // sayHelloButtonUI
         sayHelloButton.backgroundColor = .orange
-        sayGoodByeButton.backgroundColor = .purple
         sayHelloButton.setTitleColor(UIColor.white, for: .normal)
-        sayGoodByeButton.setTitleColor(UIColor.white, for: .normal)
         sayHelloButton.layer.cornerRadius = 22
+        //sayGoodByeButtonUI
+        sayGoodByeButton.backgroundColor = .purple
+        sayGoodByeButton.setTitleColor(UIColor.white, for: .normal)
         sayGoodByeButton.layer.cornerRadius = 22
     }
 }
