@@ -10,9 +10,12 @@ import UIKit
 class GoodByeViewController: UIViewController, Storyboarded {
     weak var coordinator: MainCoordinator?
 
+    @IBOutlet weak var goodByeLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         view.backgroundColor = .purple
+        goodByeLabel.textColor = .white
     }
 }
