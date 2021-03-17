@@ -58,9 +58,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Goodbye!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nkR-jk-PFm">
-                                <rect key="frame" x="186" y="438" width="74" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Goodbye!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nkR-jk-PFm">
+                                <rect key="frame" x="170" y="437.5" width="74" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -68,6 +67,10 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Qxw-le-dYa"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="nkR-jk-PFm" firstAttribute="centerX" secondItem="K9N-IG-c8u" secondAttribute="centerX" id="IbZ-7Y-9hi"/>
+                            <constraint firstItem="nkR-jk-PFm" firstAttribute="centerY" secondItem="K9N-IG-c8u" secondAttribute="centerY" id="QbH-ma-loS"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pfl-vR-jVr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
