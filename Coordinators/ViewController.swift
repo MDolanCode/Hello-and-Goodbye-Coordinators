@@ -33,6 +33,8 @@ class ViewController: UIViewController, Storyboarded {
         sayGoodByeButton.backgroundColor = .purple
         sayHelloButton.setTitleColor(UIColor.white, for: .normal)
         sayGoodByeButton.setTitleColor(UIColor.white, for: .normal)
+        sayHelloButton.layer.cornerRadius = 22
+        sayGoodByeButton.layer.cornerRadius = 22
     }
 }
 
