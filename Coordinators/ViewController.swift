@@ -33,10 +33,12 @@ class ViewController: UIViewController, Storyboarded {
         sayHelloButton.backgroundColor = .orange
         sayHelloButton.setTitleColor(UIColor.white, for: .normal)
         sayHelloButton.layer.cornerRadius = 22
+        sayHelloButton.titleLabel?.font = UIFont(name: "AvenirNext-Bold", size: 16)
         //sayGoodByeButtonUI
         sayGoodByeButton.backgroundColor = .purple
         sayGoodByeButton.setTitleColor(UIColor.white, for: .normal)
         sayGoodByeButton.layer.cornerRadius = 22
+        sayGoodByeButton.titleLabel?.font = UIFont(name: "AvenirNext-Bold", size: 16)
     }
 }
 
