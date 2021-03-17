@@ -7,7 +7,7 @@
 
 import UIKit
 
-class GoodByeViewController: UIViewController {
+class GoodByeViewController: UIViewController, Storyboarded {
 
     override func viewDidLoad() {
         super.viewDidLoad()
