@@ -81,6 +81,9 @@
                             <constraint firstItem="bsA-fg-5qS" firstAttribute="centerX" secondItem="ott-XW-wWB" secondAttribute="centerX" id="fQc-0L-RZn"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="helloLabel" destination="bsA-fg-5qS" id="zB4-41-piW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X8u-ab-z2R" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
