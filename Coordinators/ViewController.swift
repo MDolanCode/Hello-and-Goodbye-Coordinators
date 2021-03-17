@@ -23,9 +23,11 @@ class ViewController: UIViewController, Storyboarded {
     }
     
     @IBAction func sayHelloPressed(_ sender: UIButton) {
+        coordinator?.hello()
     }
     
     @IBAction func sayGoodByePressed(_ sender: UIButton) {
+        coordinator?.goodBye()
     }
 }
 
