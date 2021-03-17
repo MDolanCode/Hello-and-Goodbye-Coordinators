@@ -17,5 +17,6 @@ class HelloViewController: UIViewController, Storyboarded {
         // Do any additional setup after loading the view.
         view.backgroundColor = .orange
         helloLabel.textColor = .white
+        helloLabel.font = UIFont(name: "AvenirNext-Bold", size: 24)
     }
 }
