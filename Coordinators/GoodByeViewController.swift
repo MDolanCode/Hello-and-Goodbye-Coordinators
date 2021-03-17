@@ -8,6 +8,7 @@
 import UIKit
 
 class GoodByeViewController: UIViewController, Storyboarded {
+    weak var coordinator: MainCoordinator?
 
     override func viewDidLoad() {
         super.viewDidLoad()
