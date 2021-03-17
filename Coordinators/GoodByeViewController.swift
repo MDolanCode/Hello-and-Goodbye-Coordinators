@@ -17,5 +17,6 @@ class GoodByeViewController: UIViewController, Storyboarded {
         // Do any additional setup after loading the view.
         view.backgroundColor = .purple
         goodByeLabel.textColor = .white
+        goodByeLabel.font = UIFont(name: "AvenirNext-Bold", size: 24)
     }
 }
