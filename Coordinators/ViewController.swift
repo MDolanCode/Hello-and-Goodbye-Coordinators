@@ -15,6 +15,8 @@ class ViewController: UIViewController, Storyboarded {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        sayHelloButton.backgroundColor = .orange
+        sayGoodByeButton.backgroundColor = .purple
     }
     
     @IBAction func sayHelloPressed(_ sender: UIButton) {

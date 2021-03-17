@@ -17,17 +17,24 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="Osl-Uf-HFw">
-                                <rect key="frame" x="116.5" y="398" width="181" height="100"/>
+                                <rect key="frame" x="107" y="378" width="200" height="140"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="App-Oz-btS">
-                                        <rect key="frame" x="0.0" y="0.0" width="181" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="1O7-sl-OMa"/>
+                                            <constraint firstAttribute="height" constant="50" id="bek-UE-Yvg"/>
+                                        </constraints>
                                         <state key="normal" title="Press Me to Say Hello!"/>
                                         <connections>
                                             <action selector="sayHelloPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9Ap-jR-whM"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gRf-uE-CIj">
-                                        <rect key="frame" x="0.0" y="70" width="181" height="30"/>
+                                        <rect key="frame" x="0.0" y="90" width="200" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="O3h-3L-4LM"/>
+                                        </constraints>
                                         <state key="normal" title="Press Me to Say Goodbye!"/>
                                         <connections>
                                             <action selector="sayGoodByePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tuO-jW-GYw"/>
