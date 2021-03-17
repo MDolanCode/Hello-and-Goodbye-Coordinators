@@ -111,6 +111,9 @@
                             <constraint firstItem="nkR-jk-PFm" firstAttribute="centerY" secondItem="K9N-IG-c8u" secondAttribute="centerY" id="QbH-ma-loS"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="goodByeLabel" destination="nkR-jk-PFm" id="wtm-yG-znB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pfl-vR-jVr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
