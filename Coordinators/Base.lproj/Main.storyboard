@@ -22,10 +22,16 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="App-Oz-btS">
                                         <rect key="frame" x="0.0" y="0.0" width="181" height="30"/>
                                         <state key="normal" title="Press Me to Say Hello!"/>
+                                        <connections>
+                                            <action selector="sayHelloPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9Ap-jR-whM"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gRf-uE-CIj">
                                         <rect key="frame" x="0.0" y="70" width="181" height="30"/>
                                         <state key="normal" title="Press Me to Say Goodbye!"/>
+                                        <connections>
+                                            <action selector="sayGoodByePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tuO-jW-GYw"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -37,6 +43,10 @@
                             <constraint firstItem="Osl-Uf-HFw" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="lwD-zH-iy9"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="sayGoodByeButton" destination="gRf-uE-CIj" id="nmO-Iu-luY"/>
+                        <outlet property="sayHelloButton" destination="App-Oz-btS" id="IZh-Zb-4Rb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

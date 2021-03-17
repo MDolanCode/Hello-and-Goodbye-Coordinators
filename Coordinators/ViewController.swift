@@ -8,10 +8,19 @@
 import UIKit
 
 class ViewController: UIViewController, Storyboarded {
-
+    
+    @IBOutlet weak var sayHelloButton: UIButton!
+    @IBOutlet weak var sayGoodByeButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+    }
+    
+    @IBAction func sayHelloPressed(_ sender: UIButton) {
+    }
+    
+    @IBAction func sayGoodByePressed(_ sender: UIButton) {
     }
 }
 
