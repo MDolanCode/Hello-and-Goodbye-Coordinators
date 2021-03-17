@@ -17,13 +17,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="Osl-Uf-HFw">
-                                <rect key="frame" x="107" y="378" width="200" height="140"/>
+                                <rect key="frame" x="82" y="372" width="250" height="152"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="App-Oz-btS">
-                                        <rect key="frame" x="0.0" y="0.0" width="200" height="50"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="250" height="56"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="200" id="1O7-sl-OMa"/>
-                                            <constraint firstAttribute="height" constant="50" id="bek-UE-Yvg"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="1O7-sl-OMa"/>
+                                            <constraint firstAttribute="height" constant="56" id="bek-UE-Yvg"/>
                                         </constraints>
                                         <state key="normal" title="Press Me to Say Hello!"/>
                                         <connections>
@@ -31,9 +31,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gRf-uE-CIj">
-                                        <rect key="frame" x="0.0" y="90" width="200" height="50"/>
+                                        <rect key="frame" x="0.0" y="96" width="250" height="56"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="O3h-3L-4LM"/>
+                                            <constraint firstAttribute="height" constant="56" id="O3h-3L-4LM"/>
                                         </constraints>
                                         <state key="normal" title="Press Me to Say Goodbye!"/>
                                         <connections>
